@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.pagina2{
+    background: url('../../img/banner-login.jpg') no-repeat center center fixed; /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    height: 90vh
+}
+
+.alterar-container {
+   
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 700px;
+    border: 2px solid black;
+    height: 350px;
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#formulario-alterar {
+    width: 89%; /* Ajuste conforme necessário */
+}
+
+#formulario-alterar input{
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 600px;
+    height: 45px;
+    margin-bottom: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+#formulario-alterar button{
+    font-family: "Kanit", sans-serif;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background-color: black;
+    color: white;
+}
+#botaocadastrar{
+    font-family: "Kanit", sans-serif;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+#formulario-alterar button:hover{
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 5px 10px black;
+}
+#formulario-alterar p {
+    display: inline-block; /* Adiciona o p na mesma linha */
+    margin-left: 62px; /* Adiciona um espaçamento entre o botão e o p */
+    font-family: "Kanit", sans-serif;
+}
+#titulo-alterar{
+    font-family: "Kanit", sans-serif;   
+    font-size: 45px;
+    margin-top: -2%;
+    font-weight: 600;
+}
+
+#link-login{
+    text-decoration: none;
+}
+#link-login:hover{
+    text-decoration: underline;
+}

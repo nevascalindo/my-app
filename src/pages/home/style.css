@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (max-width: 768px) {
+
+/* Estilos para a página 1 */
+body.pagina1 {
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+/* Estilos para a página 2 */
+body.pagina2 {
+    overflow-y: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    position: relative;
+    padding-bottom: 100px; /* altura do rodapé */
+    
+  }
+
+.container-banner {
+    text-align: center;
+    /* Para centralizar horizontalmente */
+    width: 100%;
+    /* Garante que o contêiner ocupe toda a largura da tela */
+}
+
+.container-banner img {
+    max-width: 100%; /* Define uma largura máxima para a imagem */
+    width: 100%; /* Define uma largura de 80% do contêiner para dispositivos móveis */
+}
+
+.container-camisetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.camiseta {
+    position: relative; /* Para posicionamento absoluto do overlay */
+    margin: 20px;
+    /* Espaçamento entre as camisetas */
+    text-align: left;
+}
+.camiseta {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;   
+    font-weight: bold; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente (preto com 50% de opacidade) */
+    opacity: 0; /* Inicialmente transparente */
+    transition: opacity 0.3s ease; /* Transição suave */
+}
+.preco{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.camiseta img {
+    width: 350px; /* Defina uma largura máxima para as imagens */
+    height: auto; /* Mantenha a proporção da imagem */
+    transition: all 0.3s;
+}
+
+.camiseta img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+#cloud:hover{
+    content: url("../../img/kash/camisafrentekash.jpg");        
+}
+#kash:hover {
+    content: url("../../img/cloud/camisafrentecloud.jpg");   
+}
+#rain:hover {
+    content: url("../../img/kash/camisafrentekash.jpg");   
+}
+
+}
+
+@media (min-width: 1281px) {
+/* Estilos para a página 1 */
+body.pagina1 {
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+/* Estilos para a página 2 */
+body.pagina2 {
+    overflow-y: hidden;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    position: relative;
+    padding-bottom: 100px; /* altura do rodapé */
+    
+  }
+
+.container-banner {
+    text-align: center;
+    /* Para centralizar horizontalmente */
+    width: 100%;
+    /* Garante que o contêiner ocupe toda a largura da tela */
+}
+
+.container-banner img {
+    display: block;
+    /* Para alinhar horizontalmente */
+    width: 100%;
+    /* Define a largura da imagem como 100% da largura do contêiner */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-camisetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.camiseta {
+    position: relative; /* Para posicionamento absoluto do overlay */
+    margin: 50px;
+    /* Espaçamento entre as camisetas */
+    text-align: left;
+}
+.camiseta {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;   
+    font-weight: bold; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente (preto com 50% de opacidade) */
+    opacity: 0; /* Inicialmente transparente */
+    transition: opacity 0.3s ease; /* Transição suave */
+}
+.preco{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.camiseta img {
+    width: 400px;
+    /* Ajuste conforme necessário */
+    height: auto;
+    transition: all 0.3s;
+}
+
+.camiseta img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+#cloud:hover{
+    content: url("../../img/kash/camisafrentekash.jpg");        
+}
+#kash:hover {
+    content: url("../../img/cloud/camisafrentecloud.jpg");   
+}
+#rain:hover {
+    content: url("../../img/kash/camisafrentekash.jpg");   
+}
+
+}
